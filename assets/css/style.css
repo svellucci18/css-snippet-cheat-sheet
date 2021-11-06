@@ -1,3 +1,20 @@
-header {
-    background-color:;
+:root {
+    --primary: rgb(216, 60, 112)
+}
+
+* {
+    background-color: rgb(76, 100, 124);
+}
+
+.main-header h1 {
+    color: var(--primary);
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+}
+
+.main-header p {
+    color: white;
+    text-align: center;
+    padding: 0px 400px;
 }
